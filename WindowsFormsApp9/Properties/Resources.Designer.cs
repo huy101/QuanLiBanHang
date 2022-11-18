@@ -134,6 +134,16 @@ namespace WindowsFormsApp9.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cac_mau_trang_tri_PowerPoint4 {
+            get {
+                object obj = ResourceManager.GetObject("Cac-mau-trang-tri-PowerPoint4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lock_36017_960_720 {
             get {
                 object obj = ResourceManager.GetObject("lock-36017_960_720", resourceCulture);

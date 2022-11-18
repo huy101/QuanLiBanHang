@@ -34,5 +34,11 @@ namespace WindowsFormsApp9
             loginForm.ShowDialog();
 
         }
+
+        private void quanLiTaiKhoanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            QuanLiTaiKhoan quanLiTaiKhoan=new QuanLiTaiKhoan();
+               quanLiTaiKhoan.ShowDialog();
+        }
     }
 }

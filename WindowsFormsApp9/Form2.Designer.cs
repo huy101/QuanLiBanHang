@@ -37,11 +37,14 @@
             this.thưcĐơnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thanhToanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngKêToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.trangChuToolStripMenuItem,
@@ -82,14 +85,15 @@
             // thôngTinNhânViênToolStripMenuItem
             // 
             this.thôngTinNhânViênToolStripMenuItem.Name = "thôngTinNhânViênToolStripMenuItem";
-            this.thôngTinNhânViênToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
+            this.thôngTinNhânViênToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.thôngTinNhânViênToolStripMenuItem.Text = "thông tin nhân viên";
             // 
             // quanLiTaiKhoanToolStripMenuItem
             // 
             this.quanLiTaiKhoanToolStripMenuItem.Name = "quanLiTaiKhoanToolStripMenuItem";
-            this.quanLiTaiKhoanToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
+            this.quanLiTaiKhoanToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.quanLiTaiKhoanToolStripMenuItem.Text = "quản lí tài khoản";
+            this.quanLiTaiKhoanToolStripMenuItem.Click += new System.EventHandler(this.quanLiTaiKhoanToolStripMenuItem_Click);
             // 
             // thưcĐơnToolStripMenuItem
             // 
@@ -109,18 +113,30 @@
             this.thôngKêToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.thôngKêToolStripMenuItem.Text = "thống kê";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WindowsFormsApp9.Properties.Resources.Cac_mau_trang_tri_PowerPoint4;
+            this.pictureBox1.Location = new System.Drawing.Point(-11, 31);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(828, 426);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp9.Properties.Resources.abstract_gradient_wallpaper_desktop_mattbirchler_idownloadblog_purple_1536x864_11;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.Name = "Form2";
             this.Text = "trangchu";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,5 +153,6 @@
         private System.Windows.Forms.ToolStripMenuItem thanhToanToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thôngKêToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quanLiTaiKhoanToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

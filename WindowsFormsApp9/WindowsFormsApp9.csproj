@@ -56,6 +56,12 @@
     <Compile Include="modify.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuanLiTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLiTaiKhoan.Designer.cs">
+      <DependentUpon>QuanLiTaiKhoan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Taikhoan.cs" />
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
@@ -78,6 +84,9 @@
     </Compile>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLiTaiKhoan.resx">
+      <DependentUpon>QuanLiTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -111,6 +120,7 @@
     <None Include="Resources\Cac-mau-trang-tri-PowerPoint3.gif" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Cac-mau-trang-tri-PowerPoint4.gif" />
     <Content Include="SqlScripts\Script1.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

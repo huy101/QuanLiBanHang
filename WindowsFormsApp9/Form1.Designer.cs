@@ -93,9 +93,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::WindowsFormsApp9.Properties.Resources.user_icon_150670;
-            this.pictureBox3.Location = new System.Drawing.Point(181, 206);
+            this.pictureBox3.Location = new System.Drawing.Point(190, 215);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(74, 38);
+            this.pictureBox3.Size = new System.Drawing.Size(49, 38);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
@@ -103,9 +103,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WindowsFormsApp9.Properties.Resources.lock_36017_960_720;
-            this.pictureBox1.Location = new System.Drawing.Point(181, 296);
+            this.pictureBox1.Location = new System.Drawing.Point(190, 296);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(58, 55);
+            this.pictureBox1.Size = new System.Drawing.Size(46, 38);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
