@@ -16,7 +16,9 @@ namespace WindowsFormsApp9
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            var login = new Form1();
+            login.ShowDialog();
+            Application.Run();
         }
     }
 }

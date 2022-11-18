@@ -46,7 +46,7 @@ namespace WindowsFormsApp9
 
                 Form2 form = new Form2();
                 form.Show();
-                this.Hide();
+                this.Close();
             }
             else
             {
@@ -57,8 +57,8 @@ namespace WindowsFormsApp9
         private void btnthoat_Click(object sender, EventArgs e)
         {
             this.Close();
+            Application.Exit();
         }
-
-
+     
     }
 }

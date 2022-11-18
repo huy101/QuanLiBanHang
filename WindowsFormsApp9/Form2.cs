@@ -26,5 +26,13 @@ namespace WindowsFormsApp9
         {
             
         }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            var loginForm = new Form1();
+            loginForm.ShowDialog();
+
+        }
     }
 }
