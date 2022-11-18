@@ -110,5 +110,8 @@
   <ItemGroup>
     <None Include="Resources\Cac-mau-trang-tri-PowerPoint3.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlScripts\Script1.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
