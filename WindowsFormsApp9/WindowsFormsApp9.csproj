@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -56,6 +57,11 @@
     <Compile Include="modify.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLBH.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLBH.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Taikhoan.cs" />
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
@@ -93,6 +99,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="QLBH.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>QLBH.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLBH.dbml.layout">
+      <DependentUpon>QLBH.dbml</DependentUpon>
+    </None>
     <None Include="Resources\0af3c9613761d2d2394d99312aeba397.gif" />
   </ItemGroup>
   <ItemGroup>
@@ -118,7 +132,9 @@
     <None Include="Resources\engineer-workers-icon.png" />
     <None Include="Resources\312-3120740_logout-hd-png-download.png" />
     <None Include="Resources\25694.png" />
-    <Content Include="SqlScripts\Script1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
