@@ -73,6 +73,46 @@ namespace WindowsFormsApp9.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2150062 {
+            get {
+                object obj = ResourceManager.GetObject("2150062", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _25694 {
+            get {
+                object obj = ResourceManager.GetObject("25694", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _312_3120740_logout_hd_png_download {
+            get {
+                object obj = ResourceManager.GetObject("312-3120740_logout-hd-png-download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5087579 {
+            get {
+                object obj = ResourceManager.GetObject("5087579", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap abstract_gradient_wallpaper_desktop_mattbirchler_idownloadblog_purple_1536x864_1 {
             get {
                 object obj = ResourceManager.GetObject("abstract-gradient-wallpaper-desktop-mattbirchler-idownloadblog-purple-1536x864-1", resourceCulture);
@@ -134,9 +174,39 @@ namespace WindowsFormsApp9.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cac_mau_trang_tri_PowerPoint4 {
+            get {
+                object obj = ResourceManager.GetObject("Cac-mau-trang-tri-PowerPoint4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap engineer_workers_icon {
+            get {
+                object obj = ResourceManager.GetObject("engineer-workers-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lock_36017_960_720 {
             get {
                 object obj = ResourceManager.GetObject("lock-36017_960_720", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_tin_tuc {
+            get {
+                object obj = ResourceManager.GetObject("logo-tin-tuc", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

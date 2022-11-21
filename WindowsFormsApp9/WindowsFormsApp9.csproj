@@ -111,6 +111,13 @@
     <None Include="Resources\Cac-mau-trang-tri-PowerPoint3.gif" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Cac-mau-trang-tri-PowerPoint4.gif" />
+    <None Include="Resources\5087579.png" />
+    <None Include="Resources\2150062.png" />
+    <None Include="Resources\logo-tin-tuc.png" />
+    <None Include="Resources\engineer-workers-icon.png" />
+    <None Include="Resources\312-3120740_logout-hd-png-download.png" />
+    <None Include="Resources\25694.png" />
     <Content Include="SqlScripts\Script1.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

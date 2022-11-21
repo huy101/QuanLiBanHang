@@ -27,7 +27,36 @@ namespace WindowsFormsApp9
             
         }
 
-        private void btnLogout_Click(object sender, EventArgs e)
+        
+
+        private void btnThanhToan_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
+
+        private void trangChuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThucdon(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThanhtoan(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTTNV(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThoat(object sender, EventArgs e)
         {
             this.Close();
             var loginForm = new Form1();
