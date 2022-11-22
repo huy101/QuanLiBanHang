@@ -14,14 +14,14 @@
         <elementListCompartment Id="460e8ab0-75d0-4e29-aeca-cfc50cadf48f" absoluteBounds="3.515, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(4.0625 : 2.07859537760417); (4.0625 : 2.67234537760417); (3.5 : 2.67234537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(5.21875 : 2.07859537760417); (5.21875 : 2.73484537760417); (5.09895833333333 : 2.73484537760417 : JumpStart); (4.93229166666667 : 2.73484537760417 : JumpEnd); (4.39583333333333 : 2.73484537760417 : JumpStart); (4.22916666666667 : 2.73484537760417 : JumpEnd); (3.5 : 2.73484537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/QLBHDataContext/HoaDon/HoaDon_CTHD" />
       <nodes>
         <classShapeMoniker Id="cafdc228-5024-4b81-af2b-4e6c4b2b6ace" />
         <classShapeMoniker Id="e62c175a-218f-4c2a-a1d5-e466bfeb8420" />
       </nodes>
     </associationConnector>
-    <classShape Id="2c13bb55-4dac-4af8-9b9a-9a38cfd48254" absoluteBounds="0.5, 0.5, 2, 1.1939925130208333">
+    <classShape Id="2c13bb55-4dac-4af8-9b9a-9a38cfd48254" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
       <DataClassMoniker Name="/QLBHDataContext/LoaiMonAn" />
       <nestedChildShapes>
         <elementListCompartment Id="603b2314-640a-4db5-ba07-681d1dedc43b" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
@@ -40,7 +40,7 @@
         <classShapeMoniker Id="e62c175a-218f-4c2a-a1d5-e466bfeb8420" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(0.9375 : 1.69399251302083); (0.9375 : 3.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(1.09375 : 0.95); (1.09375 : 3.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/QLBHDataContext/LoaiMonAn/LoaiMonAn_MonAn" />
       <nodes>
         <classShapeMoniker Id="2c13bb55-4dac-4af8-9b9a-9a38cfd48254" />
@@ -53,20 +53,20 @@
         <elementListCompartment Id="a9e4d5a7-028a-401c-ac79-242b927089a7" absoluteBounds="3.7649999999999997, 3.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(4.375 : 3); (4.375 : 2.07859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(5.015625 : 3); (5.015625 : 2.07859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/QLBHDataContext/NV/NV_HoaDon" />
       <nodes>
         <classShapeMoniker Id="023cceb6-b371-4ded-b456-e7188691c441" />
         <classShapeMoniker Id="cafdc228-5024-4b81-af2b-4e6c4b2b6ace" />
       </nodes>
     </associationConnector>
-    <classShape Id="0258ee68-9954-4755-a803-ddd3a8a88048" absoluteBounds="4.625, 0.75, 2, 1.5785953776041666">
+    <classShape Id="0258ee68-9954-4755-a803-ddd3a8a88048" absoluteBounds="2.875, 0.875, 2, 1.5785953776041666">
       <DataClassMoniker Name="/QLBHDataContext/TaiKhoan" />
       <nestedChildShapes>
-        <elementListCompartment Id="eb34505e-f826-498e-a5d4-31d8e0e60f56" absoluteBounds="4.64, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="eb34505e-f826-498e-a5d4-31d8e0e60f56" absoluteBounds="2.8899999999999997, 1.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(5.1875 : 3); (5.1875 : 2.32859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(4.3125 : 3); (4.3125 : 2.45359537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <AssociationMoniker Name="/QLBHDataContext/NV/NV_TaiKhoan" />
       <nodes>
         <classShapeMoniker Id="023cceb6-b371-4ded-b456-e7188691c441" />

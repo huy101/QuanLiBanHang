@@ -20,37 +20,30 @@ namespace WindowsFormsApp9
         {
 
         }
-        private void txtdangnhap_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-
-        Modify Modify = new Modify();
 
         private void btndangnhap_Click(object sender, EventArgs e)
         {
-            string query = "";
             string tentk = txtdangnhap.Text;
             string mk = txtmatkhau.Text;
+            //Check data
             if (tentk.Trim() == "") { MessageBox.Show("Vui lòng nhập tên tài khoản"); return; }
             else if (mk.Trim() == "") { MessageBox.Show("Vui lòng nhập mật khẩu"); return; }
-            else
+            //Query data
+            using (QLBHDataContext dt = new QLBHDataContext())
             {
-                query = "select * from TaiKhoan where TenTaiKhoan='" + tentk + "' and Matkhau='" + mk + "'";
-            }
-            var acc = Modify.CheckLogin(query);
-            if (acc != null)
-            {
-                MessageBox.Show("Đăng nhập thành công");
+                var dangnhap = dt.TaiKhoans.Where(p => p.TenTaiKhoan == tentk && p.MatKhau == mk).SingleOrDefault();
+                if (dangnhap != null)
+                {
+                    MessageBox.Show("Đăng nhập thành công");
 
-                Form2 form = new Form2();
-                form.Show();
-                this.Close();
-            }
-            else
-            {
-                MessageBox.Show("Tên tài khoản hoặc mật khẩu không đúng");
+                    Form2 form = new Form2();
+                    form.Show();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Tên tài khoản hoặc mật khẩu không đúng");
+                }
             }
         }
 
@@ -59,6 +52,5 @@ namespace WindowsFormsApp9
             this.Close();
             Application.Exit();
         }
-     
     }
 }
