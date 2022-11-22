@@ -53,7 +53,9 @@ namespace WindowsFormsApp9
 
         private void btnTTNV(object sender, EventArgs e)
         {
-
+            this.Hide();
+            QLnhanvien ql = new QLnhanvien();
+            ql.ShowDialog();
         }
 
         private void btnThoat(object sender, EventArgs e)
@@ -61,7 +63,6 @@ namespace WindowsFormsApp9
             this.Close();
             var loginForm = new Form1();
             loginForm.ShowDialog();
-
         }
     }
 }

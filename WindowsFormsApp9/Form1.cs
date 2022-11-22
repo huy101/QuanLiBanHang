@@ -21,33 +21,30 @@ namespace WindowsFormsApp9
 
         }
 
+        DataClasses_QLTKDataContext dtTK = new DataClasses_QLTKDataContext();
         private void btndangnhap_Click(object sender, EventArgs e)
         {
-            string tentk = txtdangnhap.Text;
-            string mk = txtmatkhau.Text;
-            List<string> listtentk = new List<string>();
-            List<string> listmk=new List<string>();
-            listtentk.Add("admin");
-            listmk.Add("admin");
+            if(string.IsNullOrEmpty(txtdangnhap.Text) || string.IsNullOrEmpty(txtmatkhau.Text))
+            {
+                MessageBox.Show("Vui lòng nhập tài khoản và mật khẩu", "Chú ý", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtdangnhap.Select();
+                return;
+            }
            
-            //Check data
-            if (tentk.Trim() == "") { MessageBox.Show("Vui lòng nhập tên tài khoản"); return; }
-            else if (mk.Trim() == "") { MessageBox.Show("Vui lòng nhập mật khẩu"); return; }
-            //Query data
-            
-              
-                if (tentk=="admin" && mk=="admin")
-                {
-                    MessageBox.Show("Đăng nhập thành công");
+            var dn = dtTK.TaiKhoans.SingleOrDefault(x=>x.TenTaiKhoan == txtdangnhap.Text && x.MatKhau == txtmatkhau.Text);
+            if(dn != null)
+            {
+                MessageBox.Show("Đăng nhập thành công", "Chú ý", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                this.Hide();
+                Form2 form2 = new Form2();
+                form2.ShowDialog();
 
-                    Form2 form = new Form2();
-                    form.Show();
-                    this.Close();
-                }
-                else
-                {
-                    MessageBox.Show("Tên tài khoản hoặc mật khẩu không đúng");
-                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng nhập ĐÚNG tên đăng nhập và mật khẩu", "Chú ý", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+              
             }
 
         private void btnthoat_Click(object sender, EventArgs e)
@@ -56,6 +53,8 @@ namespace WindowsFormsApp9
             Application.Exit();
 
         }
+
+       
     }
 
     
