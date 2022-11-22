@@ -48,6 +48,7 @@
             this.txtdangnhap.Name = "txtdangnhap";
             this.txtdangnhap.Size = new System.Drawing.Size(254, 38);
             this.txtdangnhap.TabIndex = 4;
+            // 
             // txtmatkhau
             // 
             this.txtmatkhau.Location = new System.Drawing.Point(272, 296);
